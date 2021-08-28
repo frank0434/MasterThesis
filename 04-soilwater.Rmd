@@ -3,10 +3,11 @@
 ## Aim of this document
 
 1. Explore the soil water data  
-2. Try if multiple change point analysis could help to estimate DUL  
-3. 
+2. Try if multiple change point analysis could help to estimate DULs or CLLs
+3. Try if `nls` can help estimate the KLs
 
 ## Experiment details 
+
 
 a. **2** years experiment.
 b. **2** sites
