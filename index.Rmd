@@ -37,7 +37,14 @@ subjects: plant, soil and data science.
 
 ## Acknowledgements {.unnumbered}
 
-I wouldn't make this far without the following friends:
+I wouldn't make this far without the following mentors:
 
+[Prof. Derrick Moot](https://researchers.lincoln.ac.nz/derrick.moot)  
+[Dr Hamish Brown](https://scholar.google.co.nz/citations?user=1y0v7J0AAAAJ&hl=en)  
+[Dr Linley Jesson](https://scholar.google.co.nz/citations?hl=en&user=KxI3Y7QAAAAJ)  
+[Dr Henry Chau](https://researchers.lincoln.ac.nz/henry.chau)  
+[Dr Rogerio Cichota](https://www.journals.elsevier.com/agricultural-and-forest-meteorology/editorial-board/rogerio-cichota-phd)  
+[Dr Edmar Teixeira](https://scholar.google.com.au/citations?user=FW4ucLEAAAAJ&hl=en)  
+[Dr Yang, xiumei](https://www.researchgate.net/profile/Xiumei-Yang-2)  
 
 ## License {.unnumbered}
