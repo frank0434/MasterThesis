@@ -1,4 +1,5 @@
 fig:nice-fig
+fig:figDEflow
 tab:sowingdates
 fig:relativeSW
 fig:ADonly

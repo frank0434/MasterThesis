@@ -8,3 +8,10 @@
 
 
 ## Alternative
+
+Figure \@ref(fig:figDEflow) 
+
+```{r figDEflow, fig.pos='centre', fig.cap="Optimisation workflow simplified.", out.width='80%'}
+knitr::include_graphics("pictures/DEworkflow.png")
+```
+
