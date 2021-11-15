@@ -143,8 +143,9 @@ targets1 <- tar_map(
 )
 ```
 
-```{r}
 
-knitr::include_graphics("pictures/workflow.PNG")
+```{r targetplan, out.width="100%", fig.cap="The dependency graph."}
+
+knitr::include_graphics(path = "pictures/workflow.PNG")
 ```
 
