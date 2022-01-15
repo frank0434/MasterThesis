@@ -131,7 +131,7 @@ targets1 <- tar_map(
 )
 ```
 
-The R package ‘target’ is a pipeline toolkit that can orchestrate codes, files, various data sources, and more importantly, document the thinking logic (Landau 2021). This study will utilise three main features of the ‘target’ package (version 0.3.1) including function-orient programming, caching and parallel computing. The function-orient programming provided an apparent pathway for R package development. The caching feature allows users to do quality checking and only update objects that have modified dependencies. Lastly, the parallel computation feature reduced the computing time considerably. Moreover, the script-based workflow contributes to efficient version control and increases reproducibility. 
+The [R package ‘targets’](https://books.ropensci.org/targets/) is a pipeline toolkit that can orchestrate codes, files, various data sources, and more importantly, document the thinking logic (Landau 2021). This study will utilise three main features of the ‘target’ package (version 0.3.1) including function-orient programming, caching and parallel computing. The function-orient programming provided an apparent pathway for R package development. The caching feature allows users to do quality checking and only update objects that have modified dependencies. Lastly, the parallel computation feature reduced the computing time considerably. Moreover, the script-based workflow contributes to efficient version control and increases reproducibility. 
 
 
 
