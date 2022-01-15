@@ -4,25 +4,13 @@
 
 ```{r, eval=FALSE}
 # plan(callr)
-tar_option_set(
+targets::tar_option_set(
   packages = c("data.table", "here", "magrittr","readxl", "RSQLite","DBI",
                "openxlsx", "autoapsimx", "DEoptim"), 
   # imports = c("package1", "package2")
 )
 
 # If use job scheduler ----
-REMOTE = FALSE
-
-if(REMOTE){
-  # Set cluster 
-  plan(batchtools_lsf,template='./openlava_batchtools.tmpl')
-  
-  # So we can Access LSF 
-  RLinuxModules::module('load openlava') 
-  
-  tar_option_set(deployment="main") # default to host
-}
-
 
 # Construct the instruction
 values <-  data.table::data.table(Site = rep(c("AshleyDene", "Iversen12"),each = 10),
@@ -143,8 +131,11 @@ targets1 <- tar_map(
 )
 ```
 
+The R package ‘target’ is a pipeline toolkit that can orchestrate codes, files, various data sources, and more importantly, document the thinking logic (Landau 2021). This study will utilise three main features of the ‘target’ package (version 0.3.1) including function-orient programming, caching and parallel computing. The function-orient programming provided an apparent pathway for R package development. The caching feature allows users to do quality checking and only update objects that have modified dependencies. Lastly, the parallel computation feature reduced the computing time considerably. Moreover, the script-based workflow contributes to efficient version control and increases reproducibility. 
 
-```{r targetplan, out.width="100%", fig.cap="The dependency graph."}
+
+
+```{r targetplan, out.width="100%", fig.cap="The dependency graph.", fig.align='center', echo=FALSE}
 
 knitr::include_graphics(path = "pictures/workflow.PNG")
 ```
