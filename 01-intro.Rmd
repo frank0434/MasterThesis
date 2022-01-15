@@ -5,7 +5,7 @@ knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
 ```
 
 
-**The whole project is based on [@Sim2014] PhD thesis. Without his hard-work, I will have no data to do the masters.** 
+**The whole project is based on [@Sim2014] PhD work. Without his hard-work, I will have no data to do the masters.** 
 
 
 The eventual goal is to have an APSUMX-Lucerne model to simulate lucerne yield
