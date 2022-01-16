@@ -144,12 +144,12 @@ AD %>%
 
 ### Try a simple model 
 
-**Define a model for multi change points analysis**
+**Define a model for multiple change points analysis**
 
 **Red** line is the mean.  
 **Black** line is the measured value at the closet date to obtain the mean value. 
 
-```{r try mcp, echo=FALSE, message=FALSE, warning=FALSE, include=FALSE}
+```{r try mcp, message=FALSE, warning=FALSE, include=FALSE}
 model = list(
   relativeSW ~ 1 + sigma(1),  # plateau (int_1)
   ~ 0 + DAS ,       # joined slope (time_2) at cp_1, could be a exp decay function.
