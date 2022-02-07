@@ -1,5 +1,5 @@
 --- 
-title: "Modelling lucerne growth and development under dryland conditions"
+title: "Modelling approaches for lucerne growth and development under dryland conditions"
 author: "Jian (AKA Frank) Liu"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
